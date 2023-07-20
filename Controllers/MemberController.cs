@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CrudnetCoreMember.Controllers
 {
+	print("cdhc");
     [Route("api/[controller]")]
     [ApiController]
     public class MemberController : ControllerBase
@@ -72,7 +73,7 @@ namespace CrudnetCoreMember.Controllers
                 }
                 else
                 {
-                    throw;
+                    //throw;
                 }
             }
             return Ok();
